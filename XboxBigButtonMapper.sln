@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxBigButtonMapper", "XboxBigButtonMapper\XboxBigButtonMapper.csproj", "{8D8E97C8-2CCC-45F5-A17A-8C1210A00348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D8E97C8-2CCC-45F5-A17A-8C1210A00348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8E97C8-2CCC-45F5-A17A-8C1210A00348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8E97C8-2CCC-45F5-A17A-8C1210A00348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8E97C8-2CCC-45F5-A17A-8C1210A00348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE4D3BEF-FA47-4743-9362-62DB7A1B15A7}
+	EndGlobalSection
+EndGlobal
