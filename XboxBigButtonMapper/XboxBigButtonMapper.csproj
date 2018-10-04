@@ -58,10 +58,19 @@
     <Compile Include="BigButtonMapper.Designer.cs">
       <DependentUpon>BigButtonMapper.cs</DependentUpon>
     </Compile>
+    <Compile Include="KeyBinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyBinder.Designer.cs">
+      <DependentUpon>KeyBinder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BigButtonMapper.resx">
       <DependentUpon>BigButtonMapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyBinder.resx">
+      <DependentUpon>KeyBinder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

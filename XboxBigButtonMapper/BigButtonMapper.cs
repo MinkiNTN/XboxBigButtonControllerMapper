@@ -146,5 +146,14 @@ namespace XboxBigButtonMapper
         {
             _device?.Disconnect();
         }
+
+        private void buttonPressed(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            this.currentControllerLabel.Text = button.Name;
+            KeyBinder keyBinderForm = new KeyBinder();
+            keyBinderForm.CurrentButtonName = button.Name;
+            keyBinderForm.Show();
+        }
     }
 }
